@@ -2,7 +2,9 @@ name: CI to GHCR
 
 on:
   push:
-    branches: [ master ]
+    #branches: [ master ]
+    branches: [ master_lisg ]
+
 
 jobs:
 
