@@ -6,8 +6,8 @@ name: CI to Docker Hub ...lisg
 on:
   # Triggers the workflow on push or pull request events but only for the "master" branch
   push:
-  #  branches: [ "main" ]    
-    branches: [ "master" ]
+    branches: [ "main_lisg" ]    
+   #   branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
 
